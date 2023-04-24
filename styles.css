@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body{
+    background-color: skyblue;
+}
+.div :first-child{
+  background-color: black;
+  color: white;
+}
+
+.div :last-child{
+    color: red;
+} 
+
+.list :nth-child(2n+1){
+    background-color: pink;
+}
+
+.list :nth-child(2n){
+    background-color: slategray;
+}
+
+.list :first-child{
+    background-color: white;
+}
+
+.list :last-child{
+    background-color: white;
+}
+.list{
+    width: 50%;
+}
